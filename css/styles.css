@@ -1,0 +1,18 @@
+header{
+    height: 80px;
+    background-color:white;
+}
+
+main{
+    height: 400px;
+    background-color: blue;
+}
+
+table{
+    height: 80px;
+}
+
+.logo{
+    width: 80px;
+}
+
