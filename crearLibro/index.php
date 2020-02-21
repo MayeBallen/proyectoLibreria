@@ -14,15 +14,7 @@ if (isset($_POST) && !empty($_POST)) {
 
 $todosLosLibros =  $libro->traerLibros();
 
-$query = ("SELECT * FROM  categorias");
 
-   echo "<select>";
-   while($row = $query->fetch_array()){
-        echo "<option value='$row['id']'>";
-        echo $row['nombre'];
-        echo "</option>";
-   }
-   echo "</select>";
 
 
 ?>
